@@ -11,11 +11,12 @@ packages = [{include = "intermediate_ml", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-
+pandas = "^1.5.3"
+jupyter = "^1.0.0"
+ipykernel = "^6.20.2"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-intro = "intermediate_ml.step_1:main"
