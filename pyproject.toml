@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "intermediate-ml"
+version = "0.1.0"
+description = "The Kaggle Intermediate Machine Learning Tutorial found under https://www.kaggle.com/learn/intermediate-machine-learning"
+authors = ["René Gentzen <renegentzen@yahoo.de>"]
+readme = "README.md"
+homepage = "https://github.com/Resteklicken/kaggle-intermediate-ml"
+repository = "https://github.com/Resteklicken/kaggle-intermediate-ml"
+keywords = ["machine learning", "ml"]
+packages = [{include = "intermediate_ml", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
