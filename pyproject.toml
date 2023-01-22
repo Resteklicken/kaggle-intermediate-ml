@@ -18,3 +18,4 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
+intro = "intermediate_ml.step_1:main"
